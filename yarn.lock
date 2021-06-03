@@ -379,6 +379,17 @@
   resolved "https://registry.yarnpkg.com/@dfds-ui/fonts/-/fonts-0.8.57.tgz#80b6b2800de917a0fa558eba544523fff389554f"
   integrity sha512-0jdwxSK27rU8y9N12Xo9/NDVf2hBbHEh1IE35lr+T4dwrc9eSuAVg9gmy5k3a1MlkufcAuu8QvRC9bYkaEEdwQ==
 
+"@dfds-ui/forms@0.8.57":
+  version "0.8.57"
+  resolved "https://registry.yarnpkg.com/@dfds-ui/forms/-/forms-0.8.57.tgz#380fbb3068b3a083ab68d650ffad36090518db35"
+  integrity sha512-XUQ2Af/KKcxOH8IcPFBOaKoUDvJSKZ6Q0gk2qjTx/FWbCwhWo7kArjq1ZzFC2lXGrEuIcWlWjHpuqFS8rNK87A==
+  dependencies:
+    "@dfds-ui/hooks" "0.8.57"
+    "@dfds-ui/icons" "0.8.57"
+    "@dfds-ui/react-components" "0.8.57"
+    "@dfds-ui/theme" "0.8.57"
+    "@dfds-ui/typography" "0.8.57"
+
 "@dfds-ui/grid@0.8.57":
   version "0.8.57"
   resolved "https://registry.yarnpkg.com/@dfds-ui/grid/-/grid-0.8.57.tgz#a8c42079424cc51e7ed9651c7789b734e514fef8"
@@ -3681,6 +3692,11 @@ react-files@^2.4.8:
   version "2.4.8"
   resolved "https://registry.yarnpkg.com/react-files/-/react-files-2.4.8.tgz#780f140e3830923a368ee56e17e13e48b74acad6"
   integrity sha512-ua1MT5wOT+5qHWa98UxgIA9BhtzzmsgWaacNuuLMs97U/7fhSCSXvvWjG17xGtJN/0bzmkbu04SaKApcAPd1kQ==
+
+react-hook-form@7.7.1:
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.7.1.tgz#b0dc20c7122a8b647cad9adf0db8ee4ffb1d11e2"
+  integrity sha512-qpiMf670nrbgngH11qmpKTKa/ulTt+5JXNL7lBnF3C3jwusrw17dyyZ9J92mHFAflxwYWndKECPM85DLEnIf0A==
 
 react-hook-intersection-observer@^0.1.0:
   version "0.1.0"

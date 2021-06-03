@@ -6,6 +6,7 @@ module.exports = withPlugins(
     withTranspileModules([
       "@dfds-ui/react-components",
       "@dfds-ui/colors",
+      "@dfds-ui/forms",
       "@dfds-ui/icons",
       "@dfds-ui/modal",
       "@dfds-ui/grid",

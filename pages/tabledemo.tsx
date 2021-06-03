@@ -34,7 +34,7 @@ export const StyledTableDataCell = styled(TableDataCell)`
 `
 
 
-const AboutPage = () => {
+const TableDemoPage = () => {
   const { data, error } = useSWR<any>(
     "https://rickandmortyapi.com/api/location",
     fetcher
@@ -76,4 +76,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default TableDemoPage;
