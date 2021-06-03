@@ -8,15 +8,45 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "@dfds-ui/react-components": "0.8.57",
+    "@dfds-ui/colors": "0.8.57",
+    "@dfds-ui/fonts": "0.8.57",
+    "@dfds-ui/grid": "0.8.57",
+    "@dfds-ui/hooks": "0.8.57",
+    "@dfds-ui/icons": "0.8.57",
+    "@dfds-ui/modal": "0.8.57",
+    "@dfds-ui/theme": "0.8.57",
+    "@dfds-ui/typography": "0.8.57",
+    "@dfds-platform/business-components": "1.0.8",
+    "@dfds-ui/experiences": "0.8.57",
+    "react-dates": "21.8.0",
+    "react-select": "4.3.1",
+
+    "next": "10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@types/node": "^12.12.21",
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1",
-    "typescript": "4.0"
+    "@types/node": "^15.9.0",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "@emotion/babel-plugin": "^11.3.0",
+    "next-compose-plugins": "2.2.1",
+    "next-transpile-modules": "^7.2.0",
+    "typescript": "4.3.2",
+    "eslint": "^7.27.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-config-standard-next": "^12.0.0",
+    "eslint-plugin-flowtype": "5.7.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-unused-imports": "1.1.1",
+    "babel-plugin-emotion": "^11.0.0"
   },
   "license": "MIT"
 }
