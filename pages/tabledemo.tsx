@@ -56,7 +56,7 @@ const TableDemoPage = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {data.results.map((episode: any) => (
+            {data?.results.map((episode: any) => (
               <TableRow key={episode.id}>
                 <StyledTableDataCell>{episode.name}</StyledTableDataCell>
                 <StyledTableDataCell>{episode.type}</StyledTableDataCell>
