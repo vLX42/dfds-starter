@@ -35,9 +35,9 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
           </a>
         </Link>
 
-        <Link href="/about">
+        <Link href="/tabledemo">
           <a>
-            <AppBarItem title="About" id="about" />
+            <AppBarItem title="Table demo" id="tableDemo" />
           </a>
         </Link>
 
