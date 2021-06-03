@@ -13,6 +13,10 @@ const StyledAppBar = styled(AppBar)`
   button {
     display: none;
   }
+  && {
+    height: auto;
+    padding-bottom: 10px;
+  }
 `;
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (

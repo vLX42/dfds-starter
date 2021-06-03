@@ -9,6 +9,7 @@ module.exports = withPlugins(
       "@dfds-ui/icons",
       "@dfds-ui/modal",
       "@dfds-ui/grid",
+      "@dfds-platform/business-components",
       "@dfds-ui/experiences",
     ]),
   ],
@@ -17,21 +18,19 @@ module.exports = withPlugins(
     future: {
       webpack5: true,
       webpack(config, options) {
-
-
         config.module.rules.push({
           test: /\.test.js$/,
-          loader: 'ignore-loader',
-        })
+          loader: "ignore-loader",
+        });
 
         config.module.rules.push({
           test: /\.svg$/,
-          use: ['@svgr/webpack'],
-        })
+          use: ["@svgr/webpack"],
+        });
 
         config.module.rules.push({
           test: /\.(eot|woff|woff2)$/,
-          loader: 'ignore-loader',
+          loader: "ignore-loader",
           // use: {
           //   loader: 'url-@dfds-ui',
           //   options: {
@@ -39,11 +38,9 @@ module.exports = withPlugins(
           //     name: '[name].[ext]',
           //   },
           // },
-        })
+        });
 
-
-
-        return config
+        return config;
       },
     },
     images: {

@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.3.0",
     "@emotion/react": "^11.4.0",
     "@dfds-ui/react-components": "0.8.57",
+    "@dfds-platform/business-components": "^1.0.8",
     "@dfds-ui/colors": "0.8.57",
     "@dfds-ui/fonts": "0.8.57",
     "@dfds-ui/grid": "0.8.57",
