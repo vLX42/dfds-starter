@@ -14,5 +14,5 @@
       }
     ]
   ],
-  "plugins": ["@emotion"]
+  "plugins": ["@emotion/babel-plugin"]
 }

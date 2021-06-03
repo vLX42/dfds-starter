@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import Link from "next/link";
 import Head from "next/head";
-import styled from '@emotion/styled'
+import styled from "@emotion/styled";
 import { AppBar, AppBarProvider, AppBarItem } from "@dfds-ui/react-components";
 
 type Props = {
@@ -13,7 +13,7 @@ const StyledAppBar = styled(AppBar)`
   button {
     display: none;
   }
-`
+`;
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div>
@@ -26,15 +26,21 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     <AppBarProvider>
       <StyledAppBar>
         <Link href="/">
-          <a><AppBarItem title="Home" id="home" /></a>
+          <a>
+            <AppBarItem title="Home" id="home" />
+          </a>
         </Link>
 
         <Link href="/about">
-          <a><AppBarItem title="About" id="about" /></a>
+          <a>
+            <AppBarItem title="About" id="about" />
+          </a>
         </Link>
 
         <Link href="/users">
-          <a><AppBarItem title="User list" id="userList" /></a>
+          <a>
+            <AppBarItem title="User list" id="userList" />
+          </a>
         </Link>
       </StyledAppBar>
     </AppBarProvider>

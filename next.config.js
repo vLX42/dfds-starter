@@ -11,7 +11,6 @@ module.exports = withPlugins(
       "@dfds-ui/typography",
       "@dfds-ui/modal",
       "@dfds-ui/grid",
-      "@dfds-platform/business-components",
       "@dfds-ui/experiences",
     ]),
   ],
