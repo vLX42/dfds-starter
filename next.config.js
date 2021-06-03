@@ -7,8 +7,6 @@ module.exports = withPlugins(
       "@dfds-ui/react-components",
       "@dfds-ui/colors",
       "@dfds-ui/icons",
-      "@dfds-ui/theme",
-      "@dfds-ui/typography",
       "@dfds-ui/modal",
       "@dfds-ui/grid",
       "@dfds-ui/experiences",
