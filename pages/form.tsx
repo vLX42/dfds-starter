@@ -1,5 +1,5 @@
-import { TextField } from "@dfds-ui/forms";
-import { Checkbox } from "@dfds-ui/forms";
+import { TextField, Checkbox } from "@dfds-ui/forms";
+import { AddressSelect, GooglePlacesAPIProvider } from "@dfds-ui/google-places";
 import { Button, ButtonStack } from "@dfds-ui/react-components";
 import { NativeSelectField } from "@dfds-ui/forms";
 import { SelectField } from "@dfds-ui/forms/select-field/SelectField";
@@ -11,11 +11,13 @@ const defaultValues: {
   checkbox?: string | undefined;
   gender?: string | undefined;
   nativeselect?: string | undefined;
+  city?: string | undefined;
 } = {
   input: "",
   checkbox: "",
   gender: "",
   nativeselect: "",
+  city: "",
 };
 
 const FormPage = () => {
@@ -30,9 +32,23 @@ const FormPage = () => {
       <h1>Form</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <Controller
-          name="gender"
+          name="city"
+
           control={control}
           defaultValue={"female"}
+          render={({ field }) => (
+            <GooglePlacesAPIProvider
+              apiKey="AIzaSyAZ_82MZOSocrO1qWnYCWh9oV0nZQS2Yeo"
+              libraries="geometry,drawing,places"
+            >
+              <AddressSelect types={["(cities)"]} isClearable {...field} />
+            </GooglePlacesAPIProvider>
+          )}
+        />
+
+        <Controller
+          name="gender"
+          control={control}
           render={({ field }) => (
             <SelectField
               label="Gender"

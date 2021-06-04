@@ -12,6 +12,7 @@ module.exports = withPlugins(
       "@dfds-ui/grid",
       "@dfds-platform/business-components",
       "@dfds-ui/experiences",
+      "@dfds-ui/google-places",
     ]),
   ],
   {
