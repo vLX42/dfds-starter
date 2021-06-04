@@ -37,7 +37,7 @@ const FormPage = () => {
           defaultValue={"female"}
           render={({ field }) => (
             <GooglePlacesAPIProvider
-              apiKey="AIzaSyAZ_82MZOSocrO1qWnYCWh9oV0nZQS2Yeo"
+              apiKey="GetYourOwnKeY"
               libraries="geometry,drawing,places"
             >
               <AddressSelect types={["(cities)"]} isClearable {...field} />
