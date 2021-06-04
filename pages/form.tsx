@@ -33,7 +33,6 @@ const FormPage = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <Controller
           name="city"
-
           control={control}
           defaultValue={"female"}
           render={({ field }) => (
